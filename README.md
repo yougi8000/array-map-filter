@@ -25,4 +25,4 @@
 
 * Pas de panique: tu peux maintenant forker le dépôt
 * Pour lier ton dépôt à ton fork, au lieu du dépôt initial, il faut éditer le fichier `.git/config`.
-* Dans ce fichier, sous la ligne `[remote "origin"]`, remplacer `bhubr` par ton pseudo GitHub dans l'URL `https://github.com/bhubr/array-map-filter`.
+* Dans ce fichier, sous la ligne `[remote "origin"]`, remplacer `bhubr` par ton pseudo GitHub dans l'URL `https://github.com/yougi8000/array-map-filter`.
