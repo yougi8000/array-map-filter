@@ -24,6 +24,12 @@ Sortie attendue:
  */
 
 function keepStarks(names) {
+  const multiple = names.filter(function(name) { 
+    if (name.endsWith('Stark')) {
+      return name;
+    }
+})
+return multiple;
 }
 
 // Ne pas modifier l'export
