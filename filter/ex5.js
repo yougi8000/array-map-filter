@@ -49,9 +49,7 @@ Exemple d'entrée:
 
 
 function searchWordFilter(items, search) {
-let tab = items.filter(function(films) {
-  return films.items.toLowerCase().includes(search.toLowerCase())
-});
+  return items.filter(word => word.toLowerCase().indexOf(search.toLowerCase()) !== -1);
 }
 
 // Ne pas modifier l'export
