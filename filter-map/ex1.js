@@ -23,6 +23,9 @@ Sortie attendue:
 */
 
 function getJedisNames(characters) {
+  let tab = characters.filter(character => character.side === 'light')
+  return tab.map(element => element.name);
 }
+
 
 module.exports = getJedisNames;

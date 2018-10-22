@@ -38,7 +38,20 @@ Exemple d'entrée:
 
  */
 
+// function searchWordFilter(items, search) {
+//   let tab = items.filter(films => {
+//     films.items.toLowerCase().includes(search.toLowerCase()
+//       return items;
+//     }
+//     return tab;
+//   }
+// };
+
+
 function searchWordFilter(items, search) {
+let tab = items.filter(function(films) {
+  return films.items.toLowerCase().includes(search.toLowerCase())
+});
 }
 
 // Ne pas modifier l'export

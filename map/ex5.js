@@ -24,4 +24,5 @@ const tab = numbers.map(function(chiffre, index) {
 return tab;
 }
 
+
 module.exports = multiplyOddIndices;

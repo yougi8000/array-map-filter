@@ -58,12 +58,10 @@ function getCirclesProperties(radiuses) {
      result.circumference = Number.parseFloat(radius*2*Math.PI).toFixed(3);
      result.surface = Number.parseFloat(radius*radius*Math.PI).toFixed(3);
      
-        return result;
+    return result;
   });
 return tab; 
 }
-
-
 
 // Ne pas modifier l'export
 module.exports = getCirclesProperties;
